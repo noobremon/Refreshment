@@ -1,0 +1,83 @@
+body {
+    font-family: cursive;
+    background-color: #56f5e2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-shadow: #333;
+}
+
+.container {
+    font-family: cursive;
+    background-color: rgb(59, 56, 230);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px #172a35;
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    text-shadow: 0px 5px 8px #bbf0f0;
+    
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu-category {
+    margin-bottom: 20px;
+}
+
+.menu-category h3 {
+    color: #02002c;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.menu-item span {
+    flex: 1;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: #333;
+    text-size-adjust: 80%;
+    
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #d8c306;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    box-shadow: #9a2828;
+    font-family: cursive;
+}
+
+button:hover {
+    background-color: #ee1010;
+}
